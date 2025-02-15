@@ -1,6 +1,6 @@
 # Electron Multiple Processes Setup and IPC Communication with Renderer to Main and Vice Versa
 
-I have demonstrated a multi-process setup and inter-process communication (IPC) between the main process and the renderer process in this Electron application. The app allows the user to send a message from the renderer process to the main process, which then displays a native notification. When the notification is clicked, the main process sends an acknowledgment message back to the renderer process.(Techno)
+I have demonstrated a multi-process setup and inter-process communication (IPC) between the main process and the renderer process in this Electron application. The app allows the user to send a message from the renderer process to the main process, which then displays a native notification. When the notification is clicked, the main process sends an acknowledgment message back to the renderer process. (Technologies used - ElectronJs,NodeJs, ReactJs, Bootstrap)
 
 ## How IPC Communication is Implemented
 
