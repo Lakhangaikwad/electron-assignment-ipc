@@ -26,6 +26,9 @@ export default function windowLoader() {
     close: function () {
       this.mainWindow.close();
     },
+    sendMessageToRenderer: function (payload) {
+      this.mainWindow.webContents.send("message-from-main", payload);
+    },
   };
   return windowManager;
 }

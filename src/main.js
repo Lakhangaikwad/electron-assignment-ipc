@@ -24,7 +24,7 @@ app.on("ready", () => {
     });
     notification.show();
     notification.on("click", () => {
-      windowInstance.mainWindow.webContents.send("message-from-main", {
+      windowInstance.sendMessageToRenderer({
         ack: true,
       });
     });
